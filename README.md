@@ -11,4 +11,12 @@
 
 1. definir formulas
 2. definir funciones
-3. implementar JS en HTML
+3. integrar JS en HTML
+
+## taller #3: moda, mediana, promedio
+
+1. definir formulas
+2. definir funciones
+3. integrar JS en HTML
+
+## taller #4: diferencia salarial
