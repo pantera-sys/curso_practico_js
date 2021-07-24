@@ -8,13 +8,13 @@ function CalcularMediasAritmetica (list) {
             return valorAcumulado + nuevoElemento;
         }
     );
-    const promedio = sumalista / lista.length;
+    const promedio = sumalista / list.length;
     return promedio;
 }
 // calculadora de medianas
 function medianaSalarios(lista){
-    const mitad = parseInt(lista.lenght / 2 );
-    if (esPar(lista.lenght)) {
+    const mitad = parseInt(lista.length / 2 );
+    if (esPar(lista.length)) {
         const personaMitad1 = lista[mitad - 1 ];
         const personaMitad2 = lista[mitad];
 
@@ -39,7 +39,7 @@ const SalariosColSorted = SalariosCol.sort(
 ) ;
 const medianaGeneralCol = medianaSalarios(SalariosColSorted);
 // calcular top 10%
-const spliceStart = (SalariosColSorted.lenght *90)/100 ;
+const spliceStart = (SalariosColSorted.length * 90)/100 ;
 const spliceCount = SalariosColSorted - spliceStart;
 
 const salariosColTop10 = SalariosColSorted.splice(spliceStart, spliceCount)
